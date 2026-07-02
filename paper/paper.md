@@ -5,6 +5,11 @@ Catholic University of Croatia (Hrvatsko katoličko sveučilište)
 Department of Communication Studies
 Zagreb, Croatia
 
+**PETRA PALIĆ**, izv. dr. sc.
+Catholic University of Croatia (Hrvatsko katoličko sveučilište)
+Department of Communication Studies
+Zagreb, Croatia
+
 Original scientific paper
 UDK: [to be assigned by the journal]
 doi: [to be assigned by the journal]
@@ -18,7 +23,7 @@ Received: [month, year — assigned on submission]
 
 ---
 
-\* Luka Šikić, Catholic University of Croatia, Department of Communication Studies / Hrvatsko katoličko sveučilište, Odjel za komunikologiju, Ilica 242, 10000 Zagreb, Croatia / Hrvatska, luka.sikic.gm@gmail.com
+\* Corresponding author: Luka Šikić, Catholic University of Croatia, Department of Communication Studies / Hrvatsko katoličko sveučilište, Odjel za komunikologiju, Ilica 242, 10000 Zagreb, Croatia / Hrvatska, luka.sikic.gm@gmail.com
 
 ---
 
@@ -583,6 +588,10 @@ Source: Authors' compilation.
 ***SKUPLJE SVIJEĆE, TIHI PROROCI: KAKO SE RELIGIJA SUSREĆE S INFLACIJOM U HRVATSKOME DIGITALNOM MEDIJSKOM PROSTORU, 2021.–2026.***
 
 **Luka Šikić**
+*Hrvatsko katoličko sveučilište, Odjel za komunikologiju*
+*Zagreb, Hrvatska*
+
+**Petra Palić**, izv. dr. sc.
 *Hrvatsko katoličko sveučilište, Odjel za komunikologiju*
 *Zagreb, Hrvatska*
 

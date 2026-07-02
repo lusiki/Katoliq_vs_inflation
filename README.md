@@ -2,7 +2,7 @@
 
 **How religion meets inflation in the Croatian digital media space, 2021–2026**
 
-Luka Šikić · Catholic University of Croatia (Hrvatsko katoličko sveučilište), Department of Communication Studies · DigiKat project
+Luka Šikić · Petra Palić, izv. dr. sc. · Catholic University of Croatia (Hrvatsko katoličko sveučilište), Department of Communication Studies · DigiKat project
 Working manuscript — first complete version, under revision for *Revija za socijalnu politiku*.
 
 ## Read the paper
@@ -10,7 +10,7 @@ Working manuscript — first complete version, under revision for *Revija za soc
 | Format | Link |
 |---|---|
 | 📄 PDF | [`paper/paper.pdf`](paper/paper.pdf) |
-| 🌐 HTML | [`paper/paper.html`](paper/paper.html) — download and open, or view via [raw.githack.com](https://raw.githack.com/lusiki/Katoliq_vs_inflation/main/paper/paper.html) |
+| 🌐 HTML (rendered) | **[view live](https://raw.githack.com/lusiki/Katoliq_vs_inflation/master/paper/paper.html)** — opens directly in the browser, self-contained |
 | 📝 Word | [`paper/paper.docx`](paper/paper.docx) |
 | 🔧 Quarto source | [`paper/paper.qmd`](paper/paper.qmd) (renders to all of the above — see [Reproduce](#reproduce-the-paper)) |
 
