@@ -1,0 +1,25 @@
+# Quarto / LaTeX render byproducts
+/.quarto/
+*.qmd.lock
+*_files/
+*.tex
+*.aux
+*.log
+*.toc
+*.out
+*.synctex.gz
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Never commit per-post / PII-bearing data (see README > Data availability)
+*coded_pool_full.csv
+*analysis_core*.csv
+*analysis_core*.rds
+*coding_pool*
+*heldout_*.csv
+*validation_*.csv
+*linkage_coding_sheet*.csv
+*rescore90*.csv
+*fp_sample*.csv
