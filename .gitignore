@@ -14,12 +14,14 @@
 Thumbs.db
 
 # Never commit per-post / PII-bearing data (see README > Data availability)
-*coded_pool_full.csv
-*analysis_core*.csv
-*analysis_core*.rds
-*coding_pool*
-*heldout_*.csv
-*validation_*.csv
-*linkage_coding_sheet*.csv
-*rescore90*.csv
-*fp_sample*.csv
+# (scoped to output/ so this can't shadow same-named pipeline scripts in scripts/)
+output/*coded_pool_full.csv
+output/*analysis_core*.csv
+output/*analysis_core*.rds
+output/*coding_pool*
+output/*heldout_*.csv
+output/*validation_*.csv
+output/*linkage_coding_sheet*.csv
+output/*rescore90*.csv
+output/*fp_sample*.csv
+scratch/
