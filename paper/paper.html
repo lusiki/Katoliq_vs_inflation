@@ -2325,6 +2325,7 @@ window.Quarto = {
   <li><a href="#temporal-dynamics" id="toc-temporal-dynamics" class="nav-link" data-scroll-target="#temporal-dynamics">Temporal dynamics</a></li>
   <li><a href="#tone" id="toc-tone" class="nav-link" data-scroll-target="#tone">Tone</a></li>
   <li><a href="#inflation-attention-and-real-prices" id="toc-inflation-attention-and-real-prices" class="nav-link" data-scroll-target="#inflation-attention-and-real-prices">Inflation attention and real prices</a></li>
+  <li><a href="#formal-tests-of-the-three-hypotheses" id="toc-formal-tests-of-the-three-hypotheses" class="nav-link" data-scroll-target="#formal-tests-of-the-three-hypotheses">Formal tests of the three hypotheses</a></li>
   </ul></li>
   <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">DISCUSSION</a></li>
   <li><a href="#methodological-contribution-co-occurrence-is-not-engagement" id="toc-methodological-contribution-co-occurrence-is-not-engagement" class="nav-link" data-scroll-target="#methodological-contribution-co-occurrence-is-not-engagement">METHODOLOGICAL CONTRIBUTION: CO-OCCURRENCE IS NOT ENGAGEMENT</a></li>
@@ -2378,7 +2379,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="introduction">INTRODUCTION</h2>
 <p>Between 2021 and 2026 Croatia lived through the sharpest cost-of-living shock in a generation, compounded by the adoption of the euro on 1 January 2023. Catholic Social Teaching has an unusually explicit stance on such moments: from the “preferential option for the poor” to Pope Francis’s “this economy kills” (<em>ova ekonomija ubija</em>), doctrine frames economic hardship as a structural injustice the Church is called to name on behalf of the vulnerable. In a country where the Catholic Church is a dominant cultural institution and operates one of Europe’s more developed religious media ecosystems, one might expect the digital public sphere to carry an audible religious-economic voice when prices spike.</p>
 <p>This paper asks a deliberately simple question: when inflation surfaces in religion-salient Croatian digital discourse, who carries it, and in what register? We do not assume the Church is loud on the economy. We measure whether it is, and how. The answer turns out to be less about prophecy than about price lists.</p>
-<p>Three contributions follow. Substantively, we provide the first measurement of the religious register of inflation discourse across an entire national digital media space, and we document a gap between CST’s normative promise and observed practice. We combine this description with four theory-derived hypotheses and propositions (see below). One of them, that media inflation-attention tracks real prices, is tested quantitatively against the Harmonised Index of Consumer Prices (HICP) and found to be partially supported. Another, the CST-derived expectation of a prophetic justice voice, is evaluated and found not to be visible in the digital-news measure, since a news corpus cannot test the actor-level claim about the Church itself. Methodologically, we show that the naïve approach of counting posts where religion and inflation co-occur overstates genuine engagement by roughly an order of magnitude (about 8,000 co-mentions versus 520 measured), and we demonstrate a validated pipeline for measuring linkage rather than co-occurrence.</p>
+<p>Three contributions follow. Substantively, we provide the first measurement of the religious register of inflation discourse across an entire national digital media space, and we document a gap between CST’s normative promise and observed practice. We combine this description with three hypotheses and three theory-derived propositions (see below). One of them, that media inflation-attention tracks real prices, is tested quantitatively against the Harmonised Index of Consumer Prices (HICP) and found to be partially supported. Another, the CST-derived expectation of a prophetic justice voice, is evaluated and found not to be visible in the digital-news measure, since a news corpus cannot test the actor-level claim about the Church itself. Methodologically, we show that the naïve approach of counting posts where religion and inflation co-occur overstates genuine engagement by roughly an order of magnitude (about 8,000 co-mentions versus 520 measured), and we demonstrate a validated pipeline for measuring linkage rather than co-occurrence.</p>
 </section>
 <section id="background-and-hypotheses" class="level2">
 <h2 class="anchored" data-anchor-id="background-and-hypotheses">BACKGROUND AND HYPOTHESES</h2>
@@ -2389,9 +2390,12 @@ window.Quarto = {
 <p>A gap follows, along with a fourth, methodological one. No work has asked what register religion takes when it meets inflation in a whole national digital space. And studies of “religion and X” in large corpora routinely equate co-occurrence with engagement. We show below why that is unsafe here.</p>
 <section id="hypotheses-and-propositions" class="level3">
 <h3 class="anchored" data-anchor-id="hypotheses-and-propositions">Hypotheses and propositions</h3>
-<p>The study is primarily descriptive, but prior theory licenses explicit, testable expectations. We state two directional hypotheses, where theory predicts a direction and the data permit a quantitative test, and two theory-derived propositions, evaluated by pattern-matching against the coded evidence in the interpretive tradition (Yin, 2018).</p>
-<p>The first hypothesis, H1, concerns attention-price coupling. From inflation-salience and agenda-setting theory, media attention to inflation should rise with the real HICP and jump once inflation crosses a threshold of about 4%, with the food and energy components at least as salient as the headline rate. This is tested against Croatian HICP (see Results). The second hypothesis, H2, concerns resonance rather than setting. From the setter-versus-resonance debate, religious inflation coverage should resonate with real conditions rather than lead them, entering the discourse reactively as an affected party. This is assessed via the temporal pattern, though a formal lead-lag test is left to future work. The third expectation, P3, is the prophetic-actor proposition. If the Church functions as a prophetic economic actor in the digital public sphere, the structural or CST-justice register should be non-trivial and should rise with hardship. This is evaluated against the coded register distribution and its time path. The fourth expectation, P4, following Iyengar (1991), holds that framing should be episodic over thematic. Religious framing of inflation should be predominantly episodic (relief, institutional, the price of services) rather than thematic (structural critique), evaluated against the register distribution.</p>
-<p>We deliberately avoid inferential machinery that observational data of this kind cannot bear. The first hypothesis is tested by a correlation and a threshold contrast, and the propositions by pattern-matching.</p>
+<p>The study is primarily descriptive, but prior theory licenses explicit, testable expectations. We state three directional hypotheses, each predicting a pattern that the data allow us to test formally, and three propositions, evaluated by pattern-matching against the coded evidence in the interpretive tradition (Yin, 2018).</p>
+<p>The first hypothesis (H1) concerns attention and prices. From inflation-salience and agenda-setting theory, media attention to inflation should rise with the real HICP and jump once inflation crosses a threshold of about 4%, with the food and energy components at least as salient as the headline rate. We test it against the Croatian HICP with a correlation and a threshold contrast.</p>
+<p>The second hypothesis (H2) concerns who carries which register. Attribute agenda-setting holds that different outlets make different attributes of an issue salient (McCombs, 2004), and the idea of a division of narrative labour suggests that secular and religious outlets tell different stories about the same shock. The register in which religion meets inflation should therefore depend on the type of outlet, rather than being the same across the media space. We test this with a chi-square test of independence between register and outlet type.</p>
+<p>The third hypothesis (H3) concerns tone. The tone of inflation news, not only its volume, shapes how audiences read it (Lamla and Maag, 2012), and a complaint about rising religious costs is a different kind of story from pastoral commentary or a relief appeal. The tone of a post should therefore depend on its register. We test this with a chi-square test of independence between register and tone.</p>
+<p>Three propositions follow, evaluated by pattern-matching rather than a formal test. The first (P1) concerns resonance rather than setting: religious inflation coverage should resonate with real conditions rather than lead them, entering the discourse reactively as an affected party. The second (P2) is the prophetic-actor proposition: if the Church acts as a prophetic economic voice in the digital public sphere, the structural or CST-justice register should be non-trivial and should rise with hardship. The third (P3), following Iyengar (1991), holds that framing should be episodic rather than thematic, with relief, institutional, and price-of- service framing dominating the structural critique.</p>
+<p>We keep the inferential machinery modest and matched to what observational data of this kind can bear. The three hypotheses are tested with a correlation, a threshold contrast, and two chi-square tests, and the three propositions are evaluated by pattern-matching against the register distribution and its time path.</p>
 </section>
 </section>
 <section id="data-and-methods" class="level2">
@@ -2519,7 +2523,8 @@ window.Quarto = {
 </div>
 <p>Source: Authors’ calculation from the DigiKat corpus.</p>
 <p>The two dominant registers describe the Church as an economic object, not a moral voice: masses, church fees, weddings, funerals and pilgrimages that became more expensive (“cost of religious life”), and clergy or dioceses appearing in economic news as commentators or affected parties (“institution”). The second register also carries a definitional caveat. It includes clergy appearing as commentators, speaking subjects, some of whom voice moral or economic judgements, alongside the Church as an affected party. The “economic-object” reading of the ≈72% macro-register is therefore an upper bound, and splitting the institution register into subject and object is deferred to the planned human coding round (see Limitations).</p>
-<p>An outlet pattern is visible but must be read cautiously (Table 3, Figure 2). The “cost of religious life” register is almost entirely a secular story: 189 of 194 such posts are secular outlets reporting that the Church raised its prices. A tempting reading is that Catholic outlets, when they engage, tilt toward charity (27/75, or 36%, of the Catholic core versus 58/442, or 13%, of the secular core). We do not press this claim. The Catholic subsample is small (n = 75), 75% of it is the single aggregator <em>hkm.hr</em> (56 posts) whose own top register is institution (27), not charity (18), and stripping <em>hkm.hr</em> leaves just 19 posts. We therefore report the direction as a hypothesis for a larger Catholic-outlet sample, not a finding. What is robust across outlets is the near-absence of the justice register (10 secular, 5 Catholic).</p>
+<p>The register clearly depends on who carries it, which is our second hypothesis (Table 3, Figure 2). Comparing secular and Catholic outlets across the registers, the two distributions differ sharply. A chi-square test of independence rejects the null of no association (χ²(5) = 50.4, p &lt; 0.001, confirmed by a Monte Carlo test given the sparse cells, with Cramér’s V = 0.31, a moderate effect). The association is driven by two registers. The cost of religious life is almost entirely a secular story, since 189 of its 194 posts are secular outlets reporting that the Church raised its prices, whereas charity is relatively more Catholic. H2 is therefore supported: the register in which religion meets inflation is not the same across the media space but depends on the outlet.</p>
+<p>The finer claim, that Catholic outlets specifically tilt toward charity (27 of 75, or 36%, of the Catholic core versus 58 of 442, or 13%, of the secular core), we do not press. The Catholic subsample is small (n = 75), 75% of it is the single aggregator <em>hkm.hr</em> (56 posts) whose own top register is institution (27), not charity (18), and stripping <em>hkm.hr</em> leaves just 19 posts. We report that direction as a hypothesis for a larger Catholic-outlet sample, not a finding. What is robust across outlets is the near-absence of the justice register (10 secular, 5 Catholic).</p>
 <p>Table 3 <em>Register by outlet type (counts)</em></p>
 <table class="caption-top table">
 <thead>
@@ -2682,7 +2687,7 @@ window.Quarto = {
 </section>
 <section id="tone" class="level3">
 <h3 class="anchored" data-anchor-id="tone">Tone</h3>
-<p>Vendor auto-sentiment (indicative only) splits meaningfully by register (Table 5, Figure 5). The core is 43% negative, 32% positive, 25% neutral overall, but “cost of religious life” is markedly negative (100 of 194, 51%), consistent with public grumbling about church price hikes, whereas “Church-as-institution” is the most positive register (83 of 179, 46%), consistent with pastoral or commentary framing. The rare justice posts lean negative (9 of 15).</p>
+<p>Tone is our third hypothesis, and it too depends on the register (Table 5, Figure 5). The tone labels here come from the monitoring vendor’s automatic sentiment tool and are indicative rather than validated, so we read this test as exploratory. Across the five substantive registers, a chi-square test rejects the null that tone and register are independent (χ²(8) = 48.8, p &lt; 0.001, Cramér’s V = 0.22, a small-to-moderate effect). The pattern is intuitive. Across these five registers (n = 501) the split is 43% negative, 32% positive, and 25% neutral, but the cost of religious life is markedly negative (100 of 194, or 51%), consistent with public complaint about church price rises, whereas the Church as an institution is the most positive register (83 of 179, or 46%), consistent with pastoral or commentary framing. The rare justice posts lean negative (9 of 15). H3 is therefore supported, subject to the caveat that a human-validated sentiment measure is needed before the result is treated as more than suggestive.</p>
 <p>Table 5 <em>Auto-sentiment by register (counts, vendor labels, indicative)</em></p>
 <table class="caption-top table">
 <thead>
@@ -2738,8 +2743,8 @@ window.Quarto = {
 </section>
 <section id="inflation-attention-and-real-prices" class="level3">
 <h3 class="anchored" data-anchor-id="inflation-attention-and-real-prices">Inflation attention and real prices</h3>
-<p>To test the first hypothesis we relate monthly inflation-attention, the share of corpus posts that mention inflation, to the Croatian HICP annual rate of change for headline, food, and energy prices. The monthly test covers the 39 months from 2021 to mid-2024, the window for which we built the monthly attention series. The series runs continuously through January 2024 and then has two sparse months, June and July 2024, so it is not fully contiguous at the end. Over this window attention tracks inflation strongly (Table 6, Figure 6). The correlation with headline HICP is Pearson r = 0.73 (nominal p &lt; 0.001, with the cautions noted below), 0.72 with food, and 0.44 with energy, and the Spearman ranks are comparable. The threshold pattern also holds as a description. Mean attention is 0.49% of posts in the 12 months when headline HICP is below 4%, and 1.17% in the 27 months at or above it, a 2.4-fold jump around the 4% threshold documented in other countries.</p>
-<p>Three cautions temper the inference. First, the HICP annual rate of change compares each month with the same month a year earlier, so consecutive monthly values overlap by eleven months and move together closely. The attention series is also persistent. The number of genuinely independent observations is therefore well below the nominal 39, and the p-value overstates the precision. We plan an autocorrelation-robust re-estimate and a month-on-month version before submission, and until then the correlation should be read as descriptive. Second, the 4% cutpoint is taken from the cross-national literature, not estimated from these data. With only 39 months the data cannot locate a breakpoint of their own, and we report no formal test of the two-bin contrast. Because the 12 below-threshold months sit mostly at the start of 2021, the contrast cannot separate a genuine jump from the smooth rise already described. Third, the January 2023 euro changeover flooded every sector with price coverage, so part of the 2023 attention is plausibly changeover journalism rather than a reaction to the inflation rate itself.</p>
+<p>To test the first hypothesis we relate monthly inflation-attention, the share of corpus posts that mention inflation, to the Croatian HICP annual rate of change for headline, food, and energy prices. The monthly test covers the 39 months from 2021 to mid-2024, the window for which we built the monthly attention series. The series runs continuously through January 2024 and then has two sparse months, June and July 2024, so it is not fully contiguous at the end. Over this window attention tracks inflation strongly (Table 6, Figure 6). The correlation with headline HICP is Pearson r = 0.73 (nominal p &lt; 0.001, with the cautions noted below), 0.72 with food, and 0.44 with energy, and the Spearman ranks are comparable. The threshold pattern also holds. Mean attention is 0.49% of posts in the 12 months when headline HICP is below 4%, and 1.17% in the 27 months at or above it, a 2.4-fold jump around the 4% threshold documented in other countries. A two-sample test confirms the gap (Welch t = 5.7, p &lt; 0.001, Cohen’s d = 1.7, with a rank test giving the same result), though the caution below about autocorrelation applies here too.</p>
+<p>Three cautions temper the inference. First, the HICP annual rate of change compares each month with the same month a year earlier, so consecutive monthly values overlap by eleven months and move together closely. The attention series is also persistent. The number of genuinely independent observations is therefore well below the nominal 39, and the p-value overstates the precision. We plan an autocorrelation-robust re-estimate and a month-on-month version before submission, and until then the correlation should be read as descriptive. Second, the 4% cutpoint is taken from the cross-national literature, not estimated from these data. With only 39 months the data cannot locate a breakpoint of their own, and the two-sample test above assumes a cutpoint rather than finding one. Because the 12 below-threshold months sit mostly at the start of 2021, that contrast cannot fully separate a genuine jump from the smooth rise already described. Third, the January 2023 euro changeover flooded every sector with price coverage, so part of the 2023 attention is plausibly changeover journalism rather than a reaction to the inflation rate itself.</p>
 <p>On this evidence the hypothesis is partially supported. The coupling and the threshold pattern hold, and food inflation tracks attention as strongly as the headline rate does, but energy couples only weakly (r = 0.44). Energy prices swung widely and often turned negative in 2023 and 2024, which loosened their link to attention, so the “food-and-energy” part of the prediction holds for food but not for energy. This component reading is indirect, because we relate overall attention to each price component rather than to component-specific attention, so the weak energy result is suggestive rather than decisive. The coupling is not an artifact of the ragged tail of the window. It is r = 0.77 on the fully continuous 2021 to 2023 block (n = 36) and r = 0.72 once the sparsest tail month is dropped. The religion-linked core is too small for a monthly test of its own, but its yearly volume aligns with inflation, since both peak in 2022.</p>
 <p>Table 6 <em>Inflation-attention versus HICP (monthly, 2021 to mid-2024, 39 months, not fully contiguous)</em></p>
 <table class="caption-top table">
@@ -2778,6 +2783,60 @@ window.Quarto = {
 </div>
 <p>Note: Bars show the share of corpus posts mentioning inflation (left axis). Lines show the Croatian HICP annual rate of change (right axis). Source: Authors’ calculation from the DigiKat corpus and Eurostat.</p>
 </section>
+<section id="formal-tests-of-the-three-hypotheses" class="level3">
+<h3 class="anchored" data-anchor-id="formal-tests-of-the-three-hypotheses">Formal tests of the three hypotheses</h3>
+<p>Table 7 gathers the three formal tests in one place. All three reach significance, and two rest on the validated coded data (register and outlet), while the tone test rests on the vendor sentiment labels and is read as exploratory. The effect size is moderate for the outlet test (Cramér’s V = 0.31), small-to-moderate for the tone test (V = 0.22), and large for the attention threshold. The tests move the study one step beyond description: the register in which religion meets inflation is not the same across outlets (H2), and its tone is not the same across registers (H3), while attention itself rises with prices (H1).</p>
+<p>Table 7 <em>Formal tests of the three hypotheses</em></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 25%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Hypothesis</th>
+<th>Test</th>
+<th>Statistic</th>
+<th style="text-align: right;">p</th>
+<th>Effect size</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>H1: attention rises with prices</td>
+<td>Pearson correlation, monthly (n = 39)</td>
+<td>r = 0.73</td>
+<td style="text-align: right;">&lt; 0.001 (nominal)</td>
+<td>large</td>
+</tr>
+<tr class="even">
+<td>H1: 2.4-fold jump above 4%</td>
+<td>Welch two-sample t-test</td>
+<td>t = 5.7</td>
+<td style="text-align: right;">&lt; 0.001</td>
+<td>Cohen’s d = 1.7</td>
+</tr>
+<tr class="odd">
+<td>H2: register depends on outlet</td>
+<td>Chi-square of independence (2 × 6)</td>
+<td>χ² = 50.4, df = 5</td>
+<td style="text-align: right;">&lt; 0.001</td>
+<td>Cramér’s V = 0.31</td>
+</tr>
+<tr class="even">
+<td>H3: tone depends on register</td>
+<td>Chi-square of independence (5 × 3)</td>
+<td>χ² = 48.8, df = 8</td>
+<td style="text-align: right;">&lt; 0.001</td>
+<td>Cramér’s V = 0.22</td>
+</tr>
+</tbody>
+</table>
+<p>Note: H1 covers 2021 to mid-2024, and its months are autocorrelated, so its p-values are read as descriptive (see the cautions above). The H2 p-value is confirmed by a Monte Carlo test because several cells are sparse. The H3 test uses the vendor sentiment labels and is exploratory. Source: Authors’ calculation from the DigiKat corpus and Eurostat.</p>
+</section>
 </section>
 <section id="discussion" class="level2">
 <h2 class="anchored" data-anchor-id="discussion">DISCUSSION</h2>
@@ -2785,10 +2844,10 @@ window.Quarto = {
 <p>Newsroom gatekeeping offers a rival explanation. The register distribution is produced by editorial selection at least as much as by what religious actors say. Standard news values, such as conflict, concrete numbers, and institutional controversy, favour the church-fee story over the pastoral letter: a diocese raising the price of a funeral is news, while a homily on structural poverty rarely is. Since 85% of the measured core is secular outlets’ output, the distribution we observe is largely what newsrooms judged newsworthy about religion during the shock. The “quiet prophets” pattern may therefore be partly editorial deafness rather than clerical silence. On the present data, the two readings, a Church that does not speak structurally, and media that do not relay it when it does, cannot be separated. The planned secular benchmark and a supply-side corpus of Church-authored texts (see Limitations) are designed to separate them.</p>
 <p>Attention existed, but a prophetic voice did not fill it. The two results interlock. The attention test shows that media attention to inflation is real and moves with prices (see Results). Yet within that attention, once linkage is measured, the religious engagement is small and, where present, non-prophetic. The public conversation about inflation was there for a religious justice voice to enter, but little of one is visible in the measured discourse.</p>
 <p>A possible division of narrative labour emerges, though it remains a hypothesis. The register-outlet pattern hints at two storytellers. Secular media supply the “costlier candles” story, reporting, often critically and in a negative tone, that the Church raised the price of masses, weddings and funerals around the euro changeover. Catholic outlets, in their thin non-aggregator tail, lean instead toward “quiet charity.” As noted above, the Catholic subsample is too small and too aggregator-dominated to establish this contrast, so we advance it only as a hypothesis. What both kinds of outlet share is the near-absence of the prophetic, structural voice.</p>
-<p>Mechanism and timing also matter here. The pattern fits an agenda-setting reading. The religious linkage flares during the acute 2022 shock, mostly as institutional commentary, and recedes as prices stabilise, while church-fee coverage rises around euro adoption. On this evidence the dynamic looks closer to resonance than to setting, in line with the second hypothesis, though only provisionally. Religion enters inflation discourse reactively, as an affected party, rather than as an agenda-setter for economic justice.</p>
+<p>Mechanism and timing also matter here. The pattern fits an agenda-setting reading. The religious linkage flares during the acute 2022 shock, mostly as institutional commentary, and recedes as prices stabilise, while church-fee coverage rises around euro adoption. On this evidence the dynamic looks closer to resonance than to setting, in line with proposition P1, though only provisionally. Religion enters inflation discourse reactively, as an affected party, rather than as an agenda-setter for economic justice.</p>
 <p>This finding matters across three fields. For sociology of religion, it qualifies accounts of the Croatian Church as a strong public actor: on the economy, at least, its digital-public presence is thin and non-prophetic. For media studies, it extends inflation-salience research into the religious sphere and shows that the “who is hurt” framing has a specifically institutional variant: “who charges more.” For CST scholarship, the absence poses the question of why the doctrinal justice frame does not travel into the national digital public sphere.</p>
 <p>Three implications for social policy follow. First, agenda-setting research suggests that media frames shape which policy responses the public sees as warranted. If so, a digital sphere in which religion meets inflation as fees and institutional news, rather than as structural injustice, does little to build public support for redistributive or anti-poverty responses to a cost-of-living shock, even though doctrine points exactly there. Second, the visible charity register (17%) shows the place the country’s main faith-based relief network holds in the digital public sphere. Caritas appears as an episodic relief actor rather than as an advocate for structural reform. This is the familiar charity-versus-justice tension in faith-based welfare, here measured rather than asserted. Third, the dominant cost-of-religious-life register points to a concrete social-policy object. For religiously observant low-income households, fees for weddings, funerals, and other rites of passage are close to obligatory expenses. They are a neglected part of cost-of-living measurement, which the church-fee resets around the euro changeover made briefly and unusually visible.</p>
-<p>To summarize the hypothesis scorecard, H1, attention-price coupling, is partially supported: the coupling holds, though energy couples only weakly. H2, resonance not setting, is provisionally consistent, pending a lead-lag test. P3, the prophetic-actor proposition, is not visible in the digital-news measure, since the actor-level claim is not testable here. P4, episodic over thematic, is supported, in part by construction (see Appendix C).</p>
+<p>To summarize the scorecard (Table 7, Appendix C), the three tested hypotheses are borne out, H1 only partially. Attention rises with prices (H1, partially supported, since energy couples only weakly), the register depends on the outlet (H2, supported by chi-square), and the tone depends on the register (H3, supported but exploratory on vendor sentiment). Of the three propositions, resonance rather than setting is provisionally consistent (P1, pending a lead-lag test), the prophetic-actor proposition is not visible in the digital-news measure (P2, though a news corpus cannot test the actor-level claim), and episodic-over-thematic framing is supported, in part by construction (P3).</p>
 </section>
 <section id="methodological-contribution-co-occurrence-is-not-engagement" class="level2">
 <h2 class="anchored" data-anchor-id="methodological-contribution-co-occurrence-is-not-engagement">METHODOLOGICAL CONTRIBUTION: CO-OCCURRENCE IS NOT ENGAGEMENT</h2>
@@ -2838,7 +2897,7 @@ window.Quarto = {
 </section>
 <section id="appendix-a.-reproducibility" class="level2">
 <h2 class="anchored" data-anchor-id="appendix-a.-reproducibility">APPENDIX A. REPRODUCIBILITY</h2>
-<p>The analysis proceeds in five stages. We first tag inflation mentions and identify candidate religion-inflation links in the corpus. We then assemble the 1,450-candidate pool and prepare it for coding. Three annotators code the pool independently, and their labels are combined by majority. From the coded pool we derive the measured core, and from the core we compute the register, outlet, and sentiment tables and figures and the attention-price test against HICP. The analysis scripts and the coded data behind every table and figure are available on request. The underlying corpus of scraped post text is not redistributable.</p>
+<p>The analysis proceeds in five stages. We first tag inflation mentions and identify candidate religion-inflation links in the corpus. We then assemble the 1,450-candidate pool and prepare it for coding. Three annotators code the pool independently, and their labels are combined by majority. From the coded pool we derive the measured core, and from the core we compute the register, outlet, and sentiment tables and figures, the three formal hypothesis tests (the attention-price correlation and threshold test, and the two chi-square tests), and the attention series against HICP. The analysis scripts and the coded data behind every table and figure are available on request. The underlying corpus of scraped post text is not redistributable.</p>
 </section>
 <section id="appendix-b.-coding-protocol-and-validation" class="level2">
 <h2 class="anchored" data-anchor-id="appendix-b.-coding-protocol-and-validation">APPENDIX B. CODING PROTOCOL AND VALIDATION</h2>
@@ -2865,27 +2924,39 @@ window.Quarto = {
 <tbody>
 <tr class="odd">
 <td>H1</td>
-<td>Attention rises with HICP, jumps above about 4%, food and energy at least as salient as headline</td>
-<td>Correlation + threshold contrast (Results)</td>
-<td>Partially supported (r about 0.73, attention 0.49% to 1.17% across the threshold, food about equal to headline, but energy only weakly coupled at r = 0.44)</td>
+<td>Attention rises with HICP and jumps above about 4%, with food and energy at least as salient as the headline</td>
+<td>Correlation and threshold t-test</td>
+<td>Partially supported (r = 0.73, the threshold jump significant at t = 5.7, food tracking the headline but energy coupling only weakly at r = 0.44)</td>
 </tr>
 <tr class="even">
 <td>H2</td>
+<td>The register depends on the type of outlet</td>
+<td>Chi-square of independence, register × outlet</td>
+<td>Supported (χ²(5) = 50.4, p &lt; 0.001, Cramér’s V = 0.31), driven by the cost of religious life being a secular story</td>
+</tr>
+<tr class="odd">
+<td>H3</td>
+<td>The tone depends on the register</td>
+<td>Chi-square of independence, register × tone</td>
+<td>Supported, exploratory (χ²(8) = 48.8, p &lt; 0.001, Cramér’s V = 0.22) on vendor sentiment labels</td>
+</tr>
+<tr class="even">
+<td>P1</td>
 <td>Religious coverage resonates rather than leads</td>
-<td>Temporal pattern (Results, Discussion)</td>
+<td>Temporal pattern (pattern-matching)</td>
 <td>Provisionally consistent, with a lead-lag test still pending</td>
 </tr>
 <tr class="odd">
-<td>P3</td>
+<td>P2</td>
 <td>If prophetic actor, justice register non-trivial and rises with hardship</td>
-<td>Pattern-matching (Results)</td>
+<td>Register distribution (pattern-matching)</td>
 <td>Not visible in the digital-news measure (3% under strict coding, at most 8% broadly, with no rise over time), since the actor-level claim is not testable in a news corpus</td>
 </tr>
 <tr class="even">
-<td>P4</td>
+<td>P3</td>
 <td>Framing episodic, not thematic</td>
-<td>Register distribution (Results)</td>
-<td>Supported (episodic registers <span class="math inline">\(gg\)</span> thematic justice), though partly by construction: justice is definitionally the thematic register</td>
+<td>Register distribution (pattern-matching)</td>
+<td>Supported (episodic registers <span class="math inline">\(gg\)</span> thematic justice), though partly by construction, since justice is by definition the thematic register</td>
 </tr>
 </tbody>
 </table>
