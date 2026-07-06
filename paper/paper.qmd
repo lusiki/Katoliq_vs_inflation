@@ -32,12 +32,17 @@ execute:
 ---
 
 
-**LUKA ŠIKIĆ** \*
+**LUKA ŠIKIĆ**, doc. dr. sc. \*
 Catholic University of Croatia (Hrvatsko katoličko sveučilište)
 Department of Communication Studies
 Zagreb, Croatia
 
 **PETRA PALIĆ**, izv. dr. sc.
+Catholic University of Croatia (Hrvatsko katoličko sveučilište)
+Department of Communication Studies
+Zagreb, Croatia
+
+**MISLAV SAGOVAC**, dr. sc.
 Catholic University of Croatia (Hrvatsko katoličko sveučilište)
 Department of Communication Studies
 Zagreb, Croatia
@@ -55,7 +60,7 @@ Received: [month and year, assigned upon submission]
 
 ---
 
-\* Corresponding author: Luka Šikić, Catholic University of Croatia, Department of Communication Studies / Hrvatsko katoličko sveučilište, Odjel za komunikologiju, Ilica 242, 10000 Zagreb, Croatia / Hrvatska, luka.sikic.gm@gmail.com
+\* Corresponding author: Luka Šikić, doc. dr. sc., Catholic University of Croatia, Department of Communication Studies / Hrvatsko katoličko sveučilište, Odjel za komunikologiju, Ilica 242, 10000 Zagreb, Croatia / Hrvatska, luka.sikic.gm@gmail.com
 
 ---
 
@@ -88,105 +93,107 @@ pipeline for measuring linkage rather than co-occurrence.
 
 The study sits at the intersection of three literatures that are each well developed but rarely meet.
 
-**Inflation salience and media agenda-setting.** Public and media attention to inflation is non-linear: it
-stays flat until inflation crosses a threshold of roughly 2 to 4%, then jumps (Korenok, Munro & Chen, 2026;
-Pfäuti, 2024). Coverage is less about the headline rate than about *who is hurt* and *which component*,
-reflected in the "heating or eating" framing of food versus energy (Champagne et al., 2024). The European
-Central Bank now maintains a dictionary-based media inflation-attention index (Aarab et al., 2025).
-Agenda-setting theory (McCombs & Shaw, 1972) is the backdrop, with an open question of whether media *set* or
-merely *reflect* attention (Wlezien & Soroka, 2024). A second level of that theory matters here. *Attribute*
-agenda-setting (McCombs, 2004) holds that media transfer not only the salience of an issue but the salience of
-its attributes. Our register question is precisely an attribute question: it asks not whether
-religion-and-inflation is on the agenda, but which of its faces (the fee, the charity, the injustice) becomes
-salient. This literature is almost entirely secular and Anglophone or euro-area. It
-says nothing about the religious media sphere as an inflation channel.
+Public and media attention to inflation is non-linear. It stays flat until inflation crosses a threshold of
+roughly 2 to 4%, then jumps (Korenok, Munro & Chen, 2026; Pfäuti, 2024). Coverage is less about the headline
+rate than about *who is hurt* and *which component*, reflected in the "heating or eating" framing of food
+versus energy (Champagne et al., 2024). The European Central Bank now maintains a dictionary-based media
+inflation-attention index (Aarab et al., 2025). Agenda-setting theory (McCombs & Shaw, 1972) is the backdrop,
+with an open question of whether media *set* or merely *reflect* attention (Wlezien & Soroka, 2024). A second
+level of that theory matters here. *Attribute* agenda-setting (McCombs, 2004) holds that media transfer not
+only the salience of an issue but the salience of its attributes. Our register question is precisely an
+attribute question: it asks not whether religion-and-inflation is on the agenda, but which of its faces (the
+fee, the charity, the injustice) becomes salient. This literature is almost entirely secular and Anglophone or
+euro-area. It says nothing about the religious media sphere as an inflation channel.
 
-**CST economic framing.** The theological distinction between *charity* (relieving symptoms) and *justice*
-(changing structures) maps closely onto Iyengar's (1991) episodic-versus-thematic framing and gives us a
-measurable construct. The structural critique is not only a Francis-era phenomenon (Benedict XVI, 2009; Francis,
-2013). But existing studies examine secular press coverage of poverty, not religious media as the storyteller.
+A second literature concerns CST economic framing. The theological distinction between *charity* (relieving
+symptoms) and *justice* (changing structures) maps closely onto Iyengar's (1991) episodic-versus-thematic
+framing and gives us a measurable construct. The structural critique is not only a Francis-era phenomenon
+(Benedict XVI, 2009; Francis, 2013). But existing studies examine secular press coverage of poverty, not
+religious media as the storyteller.
 
-**Croatian Catholic media** are well studied on identity, nation, and culture-war themes, but their coverage of
-the economy has never been measured, still less linked to a live cost-of-living shock.
+A third literature concerns Croatian Catholic media, which are well studied on identity, nation, and
+culture-war themes, but whose coverage of the economy has never been measured, still less linked to a live
+cost-of-living shock.
 
-**The gap, plus a fourth, methodological one.** No work has asked what register religion takes when it meets
-inflation in a whole national digital space. And studies of "religion and X" in large corpora routinely equate
-co-occurrence with engagement. We show below why that is unsafe here.
+A gap follows, along with a fourth, methodological one. No work has asked what register religion takes when it
+meets inflation in a whole national digital space. And studies of "religion and X" in large corpora routinely
+equate co-occurrence with engagement. We show below why that is unsafe here.
 
 ### Hypotheses and propositions
 
 The study is primarily descriptive, but prior theory licenses explicit, testable expectations. We state two
-directional **hypotheses**, where theory predicts a direction and the data permit a quantitative test, and
-two theory-derived **propositions**, evaluated by pattern-matching against the coded evidence in the
-interpretive tradition (Yin, 2018).
+directional hypotheses, where theory predicts a direction and the data permit a quantitative test, and two
+theory-derived propositions, evaluated by pattern-matching against the coded evidence in the interpretive
+tradition (Yin, 2018).
 
-- **H1 (attention-price coupling).** From inflation-salience and agenda-setting theory, media attention to
-  inflation should rise with the real HICP and jump once inflation crosses a ≈4% threshold, with the food and
-  energy components at least as salient as the headline rate. *Tested* against Croatian HICP (see Results).
-- **H2 (resonance, not setting).** From the setter-versus-resonance debate, religious inflation coverage should
-  *resonate with* real conditions rather than *lead* them, entering the discourse reactively as an affected
-  party. *Assessed* via the temporal pattern. A formal lead-lag test is left to future work.
-- **P3 (prophetic-actor proposition).** If the Church functions as a prophetic economic actor in the digital
-  public sphere, the structural / CST-justice register should be non-trivial and should rise with hardship.
-  *Evaluated* against the coded register distribution and its time path.
-- **P4: episodic over thematic (Iyengar, 1991).** Religious framing of inflation should be predominantly
-  *episodic* (relief, institutional, the price of services) rather than *thematic* (structural critique).
-  *Evaluated* against the register distribution.
+The first hypothesis, H1, concerns attention-price coupling. From inflation-salience and agenda-setting theory,
+media attention to inflation should rise with the real HICP and jump once inflation crosses a threshold of
+about 4%, with the food and energy components at least as salient as the headline rate. This is tested against
+Croatian HICP (see Results). The second hypothesis, H2, concerns resonance rather than setting. From the
+setter-versus-resonance debate, religious inflation coverage should resonate with real conditions rather than
+lead them, entering the discourse reactively as an affected party. This is assessed via the temporal pattern,
+though a formal lead-lag test is left to future work. The third expectation, P3, is the prophetic-actor
+proposition. If the Church functions as a prophetic economic actor in the digital public sphere, the
+structural or CST-justice register should be non-trivial and should rise with hardship. This is evaluated
+against the coded register distribution and its time path. The fourth expectation, P4, following Iyengar
+(1991), holds that framing should be episodic over thematic. Religious framing of inflation should be
+predominantly episodic (relief, institutional, the price of services) rather than thematic (structural
+critique), evaluated against the register distribution.
 
 We deliberately avoid inferential machinery the observational, batch-confounded data cannot bear: H1 is tested
 by correlation and a threshold contrast, the propositions by pattern-matching.
 
 ## DATA AND METHODS
 
-**Corpus.** The DigiKat master is a topical corpus of **710,307** Croatian/Bosnian media posts (2021-01 to
-2026-06) retained by a religious-content filter (at least 2 distinct religious-term matches). It is
-*religion-salient posts across the whole media space*, not a Catholic-outlet archive: secular mainstream
-outlets dominate, and the core is 96% web-portal content (Facebook 2%, other platforms negligible). A
-provenance marker (`data_source`) distinguishes two collection streams, a monitoring query covering roughly
-2021 to 2024 and a filter-based backfill covering roughly 2024 to 2026, that are **not comparable** (see
-"Temporal dynamics" below), and we condition on it in all temporal analysis.
+The DigiKat master is a topical corpus of **710,307** Croatian/Bosnian media posts (2021-01 to 2026-06)
+retained by a religious-content filter (at least 2 distinct religious-term matches). It is *religion-salient
+posts across the whole media space*, not a Catholic-outlet archive: secular mainstream outlets dominate, and
+the core is 96% web-portal content (Facebook 2%, other platforms negligible). A provenance marker
+(`data_source`) distinguishes two collection streams, a monitoring query covering roughly 2021 to 2024 and a
+filter-based backfill covering roughly 2024 to 2026, that are **not comparable** (see "Temporal dynamics"
+below), and we condition on it in all temporal analysis.
 
-**Inflation tagging.** We tagged every post whose title or body matches an anchored inflation lexicon
+To identify the relevant posts, we tagged every post whose title or body matches an anchored inflation lexicon
 (`inflacij*`, `poskup*` "to become more expensive", `rast/porast/skok cijen*` "price rises", `trošak života`
 "cost of living", `kupovna moć` "purchasing power"), deliberately excluding the bare word `cijena` "price" to
 avoid devotional false positives (e.g. "the price of salvation"). A metaphor guard removes figurative uses
 ("inflation of words/values"). This yields **8,019** clean inflation-mentioning posts (1.13% of the corpus).
 
-**Linkage, not co-occurrence.** A long news article can mention inflation in one paragraph and a saint's feast
-in another with no connection. We therefore measured, for each inflation post, whether a religious term
-(project lexicon of 95 terms, tightened for economic homonyms such as *gospodarstvo* "economy" vs *Gospa* "Our
-Lady") appears within ±220 characters of an inflation mention. This proximity filter is deliberately
-recall-oriented (validated recall ≈0.89): it generates **1,450 candidate** linked posts while accepting false
-positives, which the coding stage removes. We code the full *linked* set (1,450) rather than the classifier's
-narrower *domestic-linked* subset (1,103), because the automatic foreign/domestic flag is unreliable (held-out
-precision of about 0.39). The annotators, not the flag, decide foreign versus domestic.
+Mentioning inflation is not the same as being linked to it. A long news article can mention inflation in one
+paragraph and a saint's feast in another with no connection. We therefore measured, for each inflation post,
+whether a religious term (project lexicon of 95 terms, tightened for economic homonyms such as *gospodarstvo*
+"economy" vs *Gospa* "Our Lady") appears within ±220 characters of an inflation mention. This proximity filter
+is deliberately recall-oriented (validated recall ≈0.89): it generates **1,450 candidate** linked posts while
+accepting false positives, which the coding stage removes. We code the full *linked* set (1,450) rather than
+the classifier's narrower *domestic-linked* subset (1,103), because the automatic foreign/domestic flag is
+unreliable (held-out precision of about 0.39). The annotators, not the flag, decide foreign versus domestic.
 
-**Coding.** All 1,450 candidates were coded by **three independent annotators** (large-language-model
-annotators applying a fixed codebook), with labels majority-adjudicated. Of these, 1,447 of 1,450 were coded by
-all three. Each post was labelled on four axes: (1) whether it is genuinely about inflation or cost of living,
-(2) whether religion is genuinely linked to the inflation content, as opposed to incidental, a geographic
-landmark, a metaphor, a hashtag, or a secular organisation containing a religious word (for example *Crveni
-križ*, Red Cross, or *Papa-test*, Pap smear), (3) whether the inflation is foreign or domestic, and (4), when
-linked, its **register**: *cost of religious life* (the price of religious goods or services rising),
-*Church-as-institution* (clergy, Pope, or parish as actor or commentator), *structural / CST justice*, *charity*
-(Caritas or relief), *devotional*, or *other*.
+The candidates were then coded. All 1,450 candidates were coded by **three independent annotators**
+(large-language-model annotators applying a fixed codebook), with labels majority-adjudicated, and 1,447 of
+1,450 were coded by all three. Each post was labelled on four axes. The first was whether it is genuinely about
+inflation or cost of living. The second was whether religion is genuinely linked to the inflation content, as
+opposed to incidental, a geographic landmark, a metaphor, a hashtag, or a secular organisation containing a
+religious word, for example *Crveni križ*, Red Cross, or *Papa-test*, Pap smear. The third was whether the
+inflation is foreign or domestic. The fourth, when linked, was its **register**: *cost of religious life* (the
+price of religious goods or services rising), *Church-as-institution* (clergy, Pope, or parish as actor or
+commentator), *structural / CST justice*, *charity* (Caritas or relief), *devotional*, or *other*.
 
-**Validation.** On a stratified held-out sample of 80 posts (disjoint from any tuning data), inter-annotator
-agreement was high (infl 0.975, link 0.967, foreign 0.992), confirming that the constructs are reliably
-measurable. Register is the harder judgement, with a held-out agreement of only 0.46. The proximity filter's
-held-out precision for domestic linkage was modest (about 0.38 to 0.46) with a recall of about 0.89, meaning it
-functions as a *filter* rather than a labeller. The full-pool coding confirmed this, with 45% of candidates
-coded as genuinely linked. We therefore report coded figures throughout and never regex counts. Annotators are
-LLM-based, so the agreement reflects inter-model reliability rather than a human gold standard, and a human
-double-coding pass is planned (see Limitations).
+We validated the coding on a stratified held-out sample of 80 posts, disjoint from any tuning data.
+Inter-annotator agreement was high (infl 0.975, link 0.967, foreign 0.992), confirming that the constructs are
+reliably measurable. Register is the harder judgement, with a held-out agreement of only 0.46. The proximity
+filter's held-out precision for domestic linkage was modest (about 0.38 to 0.46) with a recall of about 0.89,
+meaning it functions as a *filter* rather than a labeller. The full-pool coding confirmed this, with 45% of
+candidates coded as genuinely linked. We therefore report coded figures throughout and never regex counts.
+Annotators are LLM-based, so the agreement reflects inter-model reliability rather than a human gold standard,
+and a human double-coding pass is planned (see Limitations).
 
-**Price data.** The Croatian HICP annual rate of change (monthly, covering all items, food, and energy) was
-obtained from Eurostat (`prc_hicp_manr`) for 2021 to 2025.
+For the price comparison, the Croatian HICP annual rate of change (monthly, covering all items, food, and
+energy) was obtained from Eurostat (`prc_hicp_manr`) for 2021 to 2025.
 
-**Analysis.** We report three things: the corpus-to-core funnel, the register distribution and its outlet,
-temporal, and tonal structure, and a test of H1 correlating monthly inflation-attention with HICP. Because the
-corpus changes collection instrument in 2024, all temporal analysis is conducted *within* the 2021–2024
-monitoring stream, and the batch-pooled series is reported only for completeness.
+We report three things in the analysis that follows: the corpus-to-core funnel, the register distribution and
+its outlet, temporal, and tonal structure, and a test of H1 correlating monthly inflation-attention with HICP.
+Because the corpus changes collection instrument in 2024, all temporal analysis is conducted *within* the
+2021–2024 monitoring stream, and the batch-pooled series is reported only for completeness.
 
 ## RESULTS
 
@@ -433,20 +440,20 @@ Source: Authors' calculation from the DigiKat corpus and Eurostat (`prc_hicp_man
 
 ## DISCUSSION
 
-**The Church as economic object, not moral voice.** The dominant way religion meets inflation in Croatian
-digital discourse is not the pulpit but the price list. Seven in ten linked posts, the ≈72% economic-object
-macro-register (itself an upper bound on the object reading, since the institution register also contains
-clergy as commentators, see Results), describe either the rising cost of religious life or the Church as an
-institution caught in economic news. Charity adds a sixth, and the structural-justice critique CST foregrounds
-is marginal, at 3% under strict coding and at most 8% broadly construed. We frame this as a claim about
-**digital-public visibility, not the Church's pastoral conduct**. Homilies, pastoral letters and Caritas
-fieldwork are structurally under-represented in a media-monitoring corpus of news posts, so the low visibility
-of the justice frame is weak evidence about institutional silence as such (see Limitations). What the data
-support is that, in the national digital public sphere, the frame that surfaces around inflation is
+The dominant way religion meets inflation in Croatian digital discourse is not the pulpit but the price list,
+and the Church appears throughout as an economic object rather than a moral voice. Seven in ten linked posts,
+the ≈72% economic-object macro-register (itself an upper bound on the object reading, since the institution
+register also contains clergy as commentators, see Results), describe either the rising cost of religious life
+or the Church as an institution caught in economic news. Charity adds a sixth, and the structural-justice
+critique CST foregrounds is marginal, at 3% under strict coding and at most 8% broadly construed. We frame this
+as a claim about digital-public visibility, not the Church's pastoral conduct. Homilies, pastoral letters and
+Caritas fieldwork are structurally under-represented in a media-monitoring corpus of news posts, so the low
+visibility of the justice frame is weak evidence about institutional silence as such (see Limitations). What
+the data support is that, in the national digital public sphere, the frame that surfaces around inflation is
 overwhelmingly the fee and the institution, not the prophecy.
 
-**A rival explanation: newsroom gatekeeping.** The register distribution is produced by editorial selection at
-least as much as by what religious actors say. Standard news values, such as conflict, concrete numbers, and
+Newsroom gatekeeping offers a rival explanation. The register distribution is produced by editorial selection
+at least as much as by what religious actors say. Standard news values, such as conflict, concrete numbers, and
 institutional controversy, favour the church-fee story over the pastoral letter: a diocese raising the price of
 a funeral is news, while a homily on structural poverty rarely is. Since 85% of the measured core is secular
 outlets' output, the distribution we observe is largely what newsrooms judged newsworthy about religion during
@@ -455,47 +462,50 @@ silence. On the present data, the two readings, a Church that does not speak str
 not relay it when it does, cannot be separated. The planned secular benchmark and a supply-side corpus of
 Church-authored texts (see Limitations) are designed to separate them.
 
-**Attention existed, but a prophetic voice did not fill it.** The two results interlock. H1 indicates that
-media inflation-attention is real and price-coupled: attention rose with prices (see Results). Yet within that
+Attention existed, but a prophetic voice did not fill it. The two results interlock. H1 indicates that media
+inflation-attention is real and price-coupled: attention rose with prices (see Results). Yet within that
 attention, once linkage is measured, the *religious* engagement is small and, where present, non-prophetic. The
 public conversation about inflation was there for a religious justice voice to enter, but little of one is
 visible in the measured discourse.
 
-**A possible division of narrative labour (hypothesis).** The register-outlet pattern hints at two
-storytellers: secular media supplying the "costlier candles" story, reporting, often critically and in a
-negative tone, that the Church raised the price of masses, weddings and funerals around the euro changeover,
-and Catholic outlets leaning, in their thin non-aggregator tail, toward "quiet charity." As noted above, the
-Catholic subsample is too small and too aggregator-dominated to establish this contrast, so we advance it only
-as a hypothesis. What both kinds of outlet share is the near-absence of the prophetic, structural voice.
+A possible division of narrative labour emerges, though it remains a hypothesis. The register-outlet pattern
+hints at two storytellers: secular media supplying the "costlier candles" story, reporting, often critically
+and in a negative tone, that the Church raised the price of masses, weddings and funerals around the euro
+changeover, and Catholic outlets leaning, in their thin non-aggregator tail, toward "quiet charity." As noted
+above, the Catholic subsample is too small and too aggregator-dominated to establish this contrast, so we
+advance it only as a hypothesis. What both kinds of outlet share is the near-absence of the prophetic,
+structural voice.
 
-**Mechanism and timing.** Within the 2021 to 2024 stream, the pattern is consistent with an agenda-setting
-reading: the religious linkage flares during the acute 2022 shock, largely institutional commentary, and
-recedes as prices stabilise, while church-fee coverage rises around euro adoption. On this within-stream
-evidence, the dynamic looks closer to *resonance* than to *setting* (H2, provisional). Religion enters
-inflation discourse reactively, as an affected party, rather than as an agenda-setter for economic justice.
+Mechanism and timing also matter here. Within the 2021 to 2024 stream, the pattern is consistent with an
+agenda-setting reading: the religious linkage flares during the acute 2022 shock, largely institutional
+commentary, and recedes as prices stabilise, while church-fee coverage rises around euro adoption. On this
+within-stream evidence, the dynamic looks closer to *resonance* than to *setting* (H2, provisional). Religion
+enters inflation discourse reactively, as an affected party, rather than as an agenda-setter for economic
+justice.
 
-**Why it matters.** For sociology of religion, the finding qualifies accounts of the Croatian Church as a strong
-public actor: on the economy, at least, its digital-public presence is thin and non-prophetic. For media
-studies, it extends inflation-salience research into the religious sphere and shows that the "who is hurt"
-framing has a specifically institutional variant: "who charges more." For CST scholarship, the absence poses
-the question of why the doctrinal justice frame does not travel into the national digital public sphere.
+This finding matters across three fields. For sociology of religion, it qualifies accounts of the Croatian
+Church as a strong public actor: on the economy, at least, its digital-public presence is thin and
+non-prophetic. For media studies, it extends inflation-salience research into the religious sphere and shows
+that the "who is hurt" framing has a specifically institutional variant: "who charges more." For CST
+scholarship, the absence poses the question of why the doctrinal justice frame does not travel into the
+national digital public sphere.
 
-**Implications for social policy.** Three implications follow. First, if agenda-setting research is right that
-media frames shape which policy responses the public regards as warranted, then a digital sphere in which
-religion meets inflation as fees and institutional news, rather than as structural injustice, contributes
-little to building public support for redistributive or anti-poverty responses to a cost-of-living shock,
-despite doctrine that points exactly there. Second, the visible charity register (17%) documents the place the
-country's principal faith-based relief network actually occupies in the digital public sphere: Caritas appears
-as an episodic relief actor in the mixed economy of welfare rather than as an advocate for structural reform,
-the familiar charity-versus-justice tension in faith-based provision, here measured rather than asserted.
-Third, the dominant cost-of-religious-life register identifies a concrete social-policy object. Fees for
-weddings, funerals and other rites of passage function as quasi-obligatory expenditures for religiously
-observant low-income households, a neglected component of cost-of-living measurement that the euro-changeover
-fee resets made briefly and unusually visible.
+Three implications for social policy follow. First, if agenda-setting research is right that media frames
+shape which policy responses the public regards as warranted, then a digital sphere in which religion meets
+inflation as fees and institutional news, rather than as structural injustice, contributes little to building
+public support for redistributive or anti-poverty responses to a cost-of-living shock, despite doctrine that
+points exactly there. Second, the visible charity register (17%) documents the place the country's principal
+faith-based relief network actually occupies in the digital public sphere: Caritas appears as an episodic
+relief actor in the mixed economy of welfare rather than as an advocate for structural reform, the familiar
+charity-versus-justice tension in faith-based provision, here measured rather than asserted. Third, the
+dominant cost-of-religious-life register identifies a concrete social-policy object. Fees for weddings,
+funerals and other rites of passage function as quasi-obligatory expenditures for religiously observant
+low-income households, a neglected component of cost-of-living measurement that the euro-changeover fee resets
+made briefly and unusually visible.
 
-**Hypothesis scorecard.** H1, attention-price coupling, is **partially supported**: the coupling holds, though
-energy couples only weakly. H2, resonance not setting, is **provisionally consistent**, pending a lead-lag
-test. P3, the prophetic-actor proposition, is **not visible in the digital-news measure**, since the
+To summarize the hypothesis scorecard, H1, attention-price coupling, is **partially supported**: the coupling
+holds, though energy couples only weakly. H2, resonance not setting, is **provisionally consistent**, pending
+a lead-lag test. P3, the prophetic-actor proposition, is **not visible in the digital-news measure**, since the
 actor-level claim is not testable here. P4, episodic over thematic, is **supported**, in part by construction
 (see Appendix C).
 
@@ -510,34 +520,32 @@ reusable template for any "religion and X" (or "A and B") corpus study.
 
 ## LIMITATIONS
 
-- **Collection-batch confound.** The corpus mixes two streams with very different confirmation rates at their
-  2024 overlap (0.86 versus 0.21). We read temporal trends *within* stream and do not claim a decline across the
-  2024 seam. A stream-conditioned re-coding is the single highest-value robustness check.
-- **LLM annotators.** Inter-annotator agreement is high (0.97), but this is inter-model reliability, not a human
-  gold standard. A human double-coding of a slice of at least 100 posts (including the foreign/domestic
-  boundary that defines the 520) is required before final publication, along with resolution of 12 "disputed"
-  register cases.
-- **Subject/object conflation in the institution register.** As defined, *Church-as-institution* mixes the
-  institution as an affected party with clergy as commentators, that is, speaking subjects. The "economic-object"
-  macro-register (≈72%) therefore overstates the object reading to an unknown degree and should be read as an
-  upper bound. The human coding round will split this register into affected-party versus commentator, and the
-  macro-register figure will be recomputed on that split.
-- **Residual false positives.** Even after majority coding, a few core posts are misclassified. A
-  high-confidence subset (3 of 3 agreement, 518 posts) is available for sensitivity analysis.
-- **Register ordering and justice floor.** Register was the lowest-agreement axis, and the 37% versus 34%
-  ordering is within noise (we report the ≈72% macro-register), while 3% justice is a strict floor (at most 8%
-  broadly construed). The proximity filter's misses may also be register-non-random. Long-form thematic
-  argument is likelier to exceed a ±220-character window, so filter design as well as strict coding may depress
-  the justice floor. A planned window-sensitivity check addresses this.
-- **HICP scope.** H1 is tested at the level of corpus-wide inflation-attention. A monthly HICP overlay on the
-  religion-linked core specifically is too sparse to test, and the H2 lead-lag test against public search
-  interest is future work.
-- **No secular benchmark yet.** Because the corpus is religion-filtered, we cannot yet say whether structural
-  framing is rarer in religious than in secular inflation coverage. A benchmark on non-religious inflation posts
-  is needed before any claim that the Church specifically underuses the justice frame.
-- **Filtered baseline and platform coverage.** "Secular" here means secular outlets' religion-adjacent output,
-  not their full inflation coverage. The core is also 96% web, so claims generalize to the web-portal public
-  sphere rather than to all platforms.
+Several limitations qualify these findings. The corpus mixes two collection streams with very different
+confirmation rates at their 2024 overlap (0.86 versus 0.21), so we read temporal trends *within* stream and do
+not claim a decline across the 2024 seam. A stream-conditioned re-coding is the single highest-value robustness
+check. Inter-annotator agreement is high (0.97), but this is inter-model reliability, not a human gold
+standard, and a human double-coding of a slice of at least 100 posts, including the foreign/domestic boundary
+that defines the 520, is required before final publication, along with resolution of 12 "disputed" register
+cases. As defined, *Church-as-institution* also mixes the institution as an affected party with clergy as
+commentators, that is, speaking subjects, so the "economic-object" macro-register (≈72%) overstates the object
+reading to an unknown degree and should be read as an upper bound. The human coding round will split this
+register into affected-party versus commentator, and the macro-register figure will be recomputed on that
+split. Even after majority coding, a few core posts are misclassified, and a high-confidence subset (3 of 3
+agreement, 518 posts) is available for sensitivity analysis.
+
+Register was the lowest-agreement axis, and the 37% versus 34% ordering is within noise, which is why we report
+the ≈72% macro-register, while 3% justice is a strict floor, at most 8% broadly construed. The proximity
+filter's misses may also be register-non-random, since long-form thematic argument is likelier to exceed a
+±220-character window, so filter design as well as strict coding may depress the justice floor, and a planned
+window-sensitivity check addresses this. H1 is also tested only at the level of corpus-wide
+inflation-attention. A monthly HICP overlay on the religion-linked core specifically is too sparse to test, and
+the H2 lead-lag test against public search interest is future work.
+
+Because the corpus is religion-filtered, we cannot yet say whether structural framing is rarer in religious
+than in secular inflation coverage, and a benchmark on non-religious inflation posts is needed before any claim
+that the Church specifically underuses the justice frame. Finally, "secular" here means secular outlets'
+religion-adjacent output, not their full inflation coverage, and the core is also 96% web, so claims generalize
+to the web-portal public sphere rather than to all platforms.
 
 ## CONCLUSION
 
@@ -626,11 +634,15 @@ Source: Authors' compilation.
 
 ***SKUPLJE SVIJEĆE, TIHI PROROCI: KAKO SE RELIGIJA SUSREĆE S INFLACIJOM U HRVATSKOME DIGITALNOM MEDIJSKOM PROSTORU, 2021.–2026.***
 
-**Luka Šikić**
+**Luka Šikić**, doc. dr. sc.
 *Hrvatsko katoličko sveučilište, Odjel za komunikologiju*
 *Zagreb, Hrvatska*
 
 **Petra Palić**, izv. dr. sc.
+*Hrvatsko katoličko sveučilište, Odjel za komunikologiju*
+*Zagreb, Hrvatska*
+
+**Mislav Sagovac**, dr. sc.
 *Hrvatsko katoličko sveučilište, Odjel za komunikologiju*
 *Zagreb, Hrvatska*
 

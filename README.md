@@ -2,7 +2,7 @@
 
 **How religion meets inflation in the Croatian digital media space, 2021–2026**
 
-Luka Šikić · Petra Palić, izv. dr. sc. · Catholic University of Croatia (Hrvatsko katoličko sveučilište), Department of Communication Studies · DigiKat project
+Luka Šikić, doc. dr. sc. · Petra Palić, izv. dr. sc. · Mislav Sagovac, dr. sc. · Catholic University of Croatia (Hrvatsko katoličko sveučilište), Department of Communication Studies · DigiKat project
 Working manuscript — first complete version, under revision for *Revija za socijalnu politiku*.
 
 ## Read the paper
