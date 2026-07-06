@@ -37,13 +37,13 @@ Catholic Social Teaching (CST) calls the Church to name inflation as an injustic
 Between 2021 and 2026 Croatia lived through the sharpest cost-of-living shock in a generation, compounded by the
 adoption of the euro on 1 January 2023. Catholic Social Teaching has an unusually explicit stance on such
 moments: from the "preferential option for the poor" to Pope Francis's "this economy kills" (*ova ekonomija
-ubija*), doctrine frames economic hardship as a **structural** injustice the Church is called to name on behalf
+ubija*), doctrine frames economic hardship as a structural injustice the Church is called to name on behalf
 of the vulnerable. In a country where the Catholic Church is a dominant cultural institution and operates one
 of Europe's more developed religious media ecosystems, one might expect the digital public sphere to carry an
 audible religious-economic voice when prices spike.
 
-This paper asks a deliberately simple question: **when inflation surfaces in religion-salient Croatian digital
-discourse, who carries it, and in what register?** We do not assume the Church is loud on the economy. We
+This paper asks a deliberately simple question: when inflation surfaces in religion-salient Croatian digital
+discourse, who carries it, and in what register? We do not assume the Church is loud on the economy. We
 measure whether it is, and how. The answer turns out to be less about prophecy than about price lists.
 
 Three contributions follow. Substantively, we provide the first measurement of the religious register of
@@ -63,18 +63,18 @@ The study sits at the intersection of three literatures that are each well devel
 
 Public and media attention to inflation is non-linear. It stays flat until inflation crosses a threshold of
 roughly 2 to 4%, then jumps (Korenok, Munro and Chen, 2026; Pfäuti, 2024). Coverage is less about the headline
-rate than about **who is hurt** and **which component**, reflected in the "heating or eating" framing of food
+rate than about who is hurt and which component, reflected in the "heating or eating" framing of food
 versus energy (Champagne et al., 2024). The European Central Bank now maintains a dictionary-based media
 inflation-attention index (Aarab et al., 2025). Agenda-setting theory (McCombs and Shaw, 1972) is the backdrop,
-with an open question of whether media **set** or merely **reflect** attention (Wlezien and Soroka, 2024). A second
-level of that theory matters here. **Attribute** agenda-setting (McCombs, 2004) holds that media transfer not
+with an open question of whether media set or merely reflect attention (Wlezien and Soroka, 2024). A second
+level of that theory matters here. Attribute agenda-setting (McCombs, 2004) holds that media transfer not
 only the salience of an issue but the salience of its attributes. Our register question is precisely an
 attribute question: it asks not whether religion-and-inflation is on the agenda, but which of its faces (the
 fee, the charity, the injustice) becomes salient. This literature is almost entirely secular and Anglophone or
 euro-area. It says nothing about the religious media sphere as an inflation channel.
 
-A second literature concerns CST economic framing. The theological distinction between **charity** (relieving
-symptoms) and **justice** (changing structures) maps closely onto Iyengar's (1991) episodic-versus-thematic
+A second literature concerns CST economic framing. The theological distinction between charity (relieving
+symptoms) and justice (changing structures) maps closely onto Iyengar's (1991) episodic-versus-thematic
 framing and gives us a measurable construct. The structural critique is not only a Francis-era phenomenon
 (Benedict XVI, 2009; Francis, 2013). But existing studies examine secular press coverage of poverty, not
 religious media as the storyteller.
@@ -108,69 +108,73 @@ against the coded register distribution and its time path. The fourth expectatio
 predominantly episodic (relief, institutional, the price of services) rather than thematic (structural
 critique), evaluated against the register distribution.
 
-We deliberately avoid inferential machinery the observational, batch-confounded data cannot bear: H1 is tested
-by correlation and a threshold contrast, the propositions by pattern-matching.
+We deliberately avoid inferential machinery that the observational data, assembled in two non-comparable
+phases, cannot bear. The first hypothesis is tested by correlation and a threshold contrast, and the
+propositions by pattern-matching.
 
 ## DATA AND METHODS
 
-The DigiKat master is a topical corpus of **710,307** Croatian/Bosnian media posts (2021-01 to 2026-06)
-retained by a religious-content filter (at least 2 distinct religious-term matches). It is *religion-salient
-posts across the whole media space*, not a Catholic-outlet archive: secular mainstream outlets dominate, and
-the core is 96% web-portal content (Facebook 2%, other platforms negligible). A provenance marker
-(`data_source`) distinguishes two collection streams, a monitoring query covering roughly 2021 to 2024 and a
-filter-based backfill covering roughly 2024 to 2026, that are **not comparable** (see "Temporal dynamics"
-below), and we condition on it in all temporal analysis.
+The DigiKat master is a topical corpus of 710,307 Croatian and Bosnian media posts (January 2021 to June 2026)
+retained by a religious-content filter that requires at least two distinct religious-term matches. It is a
+collection of religion-salient posts across the whole media space, not a Catholic-outlet archive. Secular
+mainstream outlets dominate, and the core is 96% web-portal content (Facebook 2%, other platforms negligible).
+The corpus was assembled in two collection phases, an earlier phase covering roughly 2021 to 2024 and a later
+phase covering roughly 2024 to 2026, and because the two phases capture the media space in different ways they
+are not directly comparable. We therefore read all temporal trends within a single phase rather than across the
+seam between them.
 
-To identify the relevant posts, we tagged every post whose title or body matches an anchored inflation lexicon
-(`inflacij*`, `poskup*` "to become more expensive", `rast/porast/skok cijen*` "price rises", `trošak života`
-"cost of living", `kupovna moć` "purchasing power"), deliberately excluding the bare word `cijena` "price" to
-avoid devotional false positives (e.g. "the price of salvation"). A metaphor guard removes figurative uses
-("inflation of words/values"). This yields **8,019** clean inflation-mentioning posts (1.13% of the corpus).
+To identify the relevant posts, we tagged every post whose title or body matches an anchored inflation lexicon.
+The lexicon covers words for inflation and rising prices, such as *inflacija*, *poskupljenje* ("becoming more
+expensive"), *rast cijena* ("price rises"), *trošak života* ("cost of living"), and *kupovna moć* ("purchasing
+power"), while deliberately excluding the bare word *cijena* ("price") to avoid devotional false positives such
+as "the price of salvation". A metaphor guard removes figurative uses such as "inflation of words" or "inflation
+of values". This yields 8,019 clean inflation-mentioning posts, or 1.13% of the corpus.
 
 Mentioning inflation is not the same as being linked to it. A long news article can mention inflation in one
 paragraph and a saint's feast in another with no connection. We therefore measured, for each inflation post,
 whether a religious term (project lexicon of 95 terms, tightened for economic homonyms such as *gospodarstvo*
 "economy" vs *Gospa* "Our Lady") appears within ±220 characters of an inflation mention. This proximity filter
-is deliberately recall-oriented (validated recall ≈0.89): it generates **1,450 candidate** linked posts while
-accepting false positives, which the coding stage removes. We code the full **linked** set (1,450) rather than
-the classifier's narrower **domestic-linked** subset (1,103), because the automatic foreign/domestic flag is
+is deliberately recall-oriented (validated recall ≈0.89): it generates 1,450 candidate linked posts while
+accepting false positives, which the coding stage removes. We code the full linked set (1,450) rather than
+the classifier's narrower domestic-linked subset (1,103), because the automatic foreign/domestic flag is
 unreliable (held-out precision of about 0.39). The annotators, not the flag, decide foreign versus domestic.
 
-The candidates were then coded. All 1,450 candidates were coded by **three independent annotators**
+The candidates were then coded. All 1,450 candidates were coded by three independent annotators
 (large-language-model annotators applying a fixed codebook), with labels majority-adjudicated, and 1,447 of
 1,450 were coded by all three. Each post was labelled on four axes. The first was whether it is genuinely about
 inflation or cost of living. The second was whether religion is genuinely linked to the inflation content, as
 opposed to incidental, a geographic landmark, a metaphor, a hashtag, or a secular organisation containing a
 religious word, for example *Crveni križ*, Red Cross, or *Papa-test*, Pap smear. The third was whether the
-inflation is foreign or domestic. The fourth, when linked, was its **register**: **cost of religious life** (the
-price of religious goods or services rising), **Church-as-institution** (clergy, Pope, or parish as actor or
-commentator), **structural / CST justice**, **charity** (Caritas or relief), **devotional**, or **other**.
+inflation is foreign or domestic. The fourth, when linked, was its register: cost of religious life (the
+price of religious goods or services rising), Church-as-institution (clergy, Pope, or parish as actor or
+commentator), structural / CST justice, charity (Caritas or relief), devotional, or other.
 
 We validated the coding on a stratified held-out sample of 80 posts, disjoint from any tuning data.
 Inter-annotator agreement was high (infl 0.975, link 0.967, foreign 0.992), confirming that the constructs are
 reliably measurable. Register is the harder judgement, with a held-out agreement of only 0.46. The proximity
 filter's held-out precision for domestic linkage was modest (about 0.38 to 0.46) with a recall of about 0.89,
-meaning it functions as a **filter** rather than a labeller. The full-pool coding confirmed this, with 45% of
+meaning it functions as a filter rather than a labeller. The full-pool coding confirmed this, with 45% of
 candidates coded as genuinely linked. We therefore report coded figures throughout and never regex counts.
 Annotators are LLM-based, so the agreement reflects inter-model reliability rather than a human gold standard,
 and a human double-coding pass is planned (see Limitations).
 
 For the price comparison, the Croatian HICP annual rate of change (monthly, covering all items, food, and
-energy) was obtained from Eurostat (`prc_hicp_manr`) for 2021 to 2025.
+energy) was obtained from Eurostat for 2021 to 2025.
 
-We report three things in the analysis that follows: the corpus-to-core funnel, the register distribution and
-its outlet, temporal, and tonal structure, and a test of H1 correlating monthly inflation-attention with HICP.
-Because the corpus changes collection instrument in 2024, all temporal analysis is conducted **within** the
-2021–2024 monitoring stream, and the batch-pooled series is reported only for completeness.
+The analysis that follows reports three things: the path from the full corpus down to the measured core, the
+register distribution together with its outlet, temporal, and tonal structure, and a test of the first
+hypothesis correlating monthly inflation-attention with HICP. Because the corpus changes collection phase in
+2024, all temporal analysis is conducted within the earlier 2021 to 2024 phase, and the combined series across
+both phases is reported only for completeness.
 
 ## RESULTS
 
 ### Co-occurrence is not engagement
 
 The path from corpus to measured core is steep (Table 1). Of 710,307 posts, 8,019 (1.13%) mention inflation. Of
-those, the recall-oriented filter flags 1,450 as candidate-linked, and coding confirms only **652** as genuine
-religion–inflation linkage. Of these, **132** concern foreign inflation, leaving a **domestic measured core of
-520 posts, 0.07% of the corpus and 6.5% of inflation-mentioning posts.** A naïve co-occurrence count would
+those, the recall-oriented filter flags 1,450 as candidate-linked, and coding confirms only 652 as genuine
+religion–inflation linkage. Of these, 132 concern foreign inflation, leaving a domestic measured core of
+520 posts, 0.07% of the corpus and 6.5% of inflation-mentioning posts. A naïve co-occurrence count would
 have reported the phenomenon as an order of magnitude larger than it is. Even among the proximity-flagged
 candidates, just 45% survive coding. The 520 is itself a floor rather than a point estimate. At the filter's
 validated recall of about 0.89, estimated on an 80-post held-out sample, roughly sixty genuine domestic posts
@@ -187,13 +191,13 @@ Table 1
 | Linked candidates (filter, recall ≈0.89) | 1,450 | 0.204 |
 | Confirmed religion-linked (coded) | 652 | 0.092 |
 | … foreign inflation | 132 | 0.019 |
-| **… domestic (measured core)** | **520** | **0.073** |
+| … domestic (measured core) | 520 | 0.073 |
 
 Source: Authors' calculation from the DigiKat corpus.
 
 ### Who carries it
 
-Genuine religion×inflation discourse is overwhelmingly a **secular-media** phenomenon: 442 of 520 posts (85%)
+Genuine religion×inflation discourse is overwhelmingly a secular-media phenomenon: 442 of 520 posts (85%)
 come from secular/mainstream outlets, 75 (14%) from Catholic outlets, and 3 from business press (Table 3). The
 single largest producer is the Catholic aggregator *hkm.hr* (56 posts), followed by mainstream titles
 (*slobodnadalmacija.hr* 17, *novilist.hr* 16, *24sata.hr* 12, *jutarnji.hr* 11, *večernji.hr* 10). The Church's
@@ -202,15 +206,15 @@ own outlets are not where this discourse mainly lives.
 ### The register of religious-economic discourse
 
 The central result is the register distribution (Table 2, Figure 1). Religion meets domestic inflation as, in
-order: the ***cost of religious life*** (37.3%), the ***Church-as-institution*** (34.4%), ***charity*** (16.7%),
-***devotional*** framing (5.0%), and ***structural / CST justice*** at just **2.9%** (15 posts).
+order: the cost of religious life (37.3%), the Church as an institution (34.4%), charity (16.7%), devotional
+framing (5.0%), and the structural or CST-justice register at just 2.9%, or 15 posts.
 
 Two cautions attach to this table. First, the two leading registers are close, share vocabulary (*crkva*,
 *biskup*), and register was the lowest-agreement coding axis (0.46), so their ordering is within coding noise.
-The robust statement is that together they form an **economic-object** macro-register of **≈72%** (373 posts).
+The robust statement is that together they form an economic-object macro-register of ≈72% (373 posts).
 Second, the 3% justice figure is a strict-coding floor. Broadening to posts in other registers whose text
 carries latent structural language (chiefly 18 charity posts, for example Caritas discussing structural
-poverty) raises the upper bound to **≈8%** (43 posts). Justice is marginal on either definition.
+poverty) raises the upper bound to ≈8% (43 posts). Justice is marginal on either definition.
 
 Table 2
 *Register of the domestic core (n = 520)*
@@ -234,20 +238,20 @@ Figure 1
 
 Source: Authors' calculation from the DigiKat corpus.
 
-The two dominant registers describe the Church as an **economic object**, not a moral voice: masses, church fees,
+The two dominant registers describe the Church as an economic object, not a moral voice: masses, church fees,
 weddings, funerals and pilgrimages that became more expensive ("cost of religious life"), and clergy or dioceses
 appearing in economic news as commentators or affected parties ("institution"). The second register also
-carries a definitional caveat. It includes clergy appearing as **commentators**, speaking subjects, some of whom
+carries a definitional caveat. It includes clergy appearing as commentators, speaking subjects, some of whom
 voice moral or economic judgements, alongside the Church as an affected party. The "economic-object" reading of
 the ≈72% macro-register is therefore an upper bound, and splitting the institution register into subject and
 object is deferred to the planned human coding round (see Limitations).
 
 An outlet pattern is visible but must be read cautiously (Table 3, Figure 2). The "cost of religious life"
-register is almost entirely a **secular** story: 189 of 194 such posts are secular outlets reporting that the
-Church raised its prices. A tempting reading is that Catholic outlets, when they engage, tilt toward **charity**
+register is almost entirely a secular story: 189 of 194 such posts are secular outlets reporting that the
+Church raised its prices. A tempting reading is that Catholic outlets, when they engage, tilt toward charity
 (27/75, or 36%, of the Catholic core versus 58/442, or 13%, of the secular core). We do not press this claim.
 The Catholic subsample is small (n = 75), 75% of it is the single aggregator *hkm.hr* (56 posts) whose own top
-register is **institution** (27), not charity (18), and stripping *hkm.hr* leaves just 19 posts. We therefore
+register is institution (27), not charity (18), and stripping *hkm.hr* leaves just 19 posts. We therefore
 report the direction as a hypothesis for a larger Catholic-outlet sample, not a finding. What is robust across
 outlets is the near-absence of the justice register (10 secular, 5 Catholic).
 
@@ -272,36 +276,36 @@ Figure 2
 
 Source: Authors' calculation from the DigiKat corpus.
 
-### Temporal dynamics (read within collection stream)
+### Temporal dynamics
 
-An important caveat governs this section. The two collection streams are not comparable: at 2024, where they
-overlap, **86%** of `original_dta` candidates but only **21%** of `filtered_religious` candidates survive coding
-as genuine domestic linkage. Cross-year volume must therefore be read **within** a stream, not across the 2024
-seam (Figure 3).
+An important caveat governs this section. The two collection phases are not directly comparable, because at
+their 2024 overlap a much larger share of the earlier-phase candidates than of the later-phase candidates
+survive coding as genuine domestic linkage. Year-on-year volume must therefore be read within a single phase,
+not across the 2024 seam (Figure 3).
 
-**Within the clean 2021 to 2024 monitoring stream**, the core rises sharply to a **2022 peak of 201 posts**,
-the height of the energy shock, and declines thereafter (2023: 100, 2024: 64). This within-instrument decline is
-genuine, not a collection artifact. The later backfill figures (2025: 66, 2026: 53) come from a different
-instrument and are **not** evidence of a continued decline.
+Within the earlier 2021 to 2024 phase, the core rises sharply to a 2022 peak of 201 posts, at the height of the
+energy shock, and declines thereafter (100 in 2023 and 64 in 2024). This decline within one collection phase is
+genuine, not an artifact of how the corpus was assembled. The later figures (66 in 2025 and 53 in 2026) come
+from the second collection phase and are not evidence of a continued decline.
 
 Figure 3
-*Measured core volume by collection stream, by year (batch-confound check)*
+*Measured core volume by collection phase, by year*
 
 ![Figure 3](../output/figures/coded_core_by_stream.png)
 
-Note: Trends must be read within a single stream. The monitoring stream covers roughly 2021 to 2024, the backfill stream roughly 2024 to 2026.
+Note: Trends must be read within a single collection phase. The earlier phase covers roughly 2021 to 2024, the later phase roughly 2024 to 2026.
 Source: Authors' calculation from the DigiKat corpus.
 
-Within that same window, the register composition shifts (Figure 4, Table 4). The **institution** register
+Within that same window, the register composition shifts (Figure 4, Table 4). The institution register
 dominates the 2022 shock (105 posts), reflecting clergy commenting on the crisis, and recedes (38 in 2023, 9 in
-2024), while **cost-of-religious-life** rises from 41 to 39 to 61 posts a year, tracking the church-fee revisions
-around the euro changeover on 1 January 2023. The discourse thus appears to migrate from acute-crisis
+2024), while the cost-of-religious-life register rises from 41 to 39 to 61 posts a year, tracking the church-fee
+revisions around the euro changeover on 1 January 2023. The discourse thus appears to migrate from acute-crisis
 commentary toward institutional price adjustment. The euro changeover itself is a cross-sectoral media event.
 It generated price-transparency and rounding-up coverage across the whole economy, so part of the
 cost-of-religious-life rise that follows the changeover plausibly tracks changeover journalism rather than
 inflation dynamics alone. We treat this register shift as suggestive rather than established, since part of it
-spans the stream seam and awaits a stream-conditioned re-coding. At no point, in either stream, does the
-justice register gain traction.
+spans the seam between phases and awaits a re-coding that conditions on collection phase. At no point, in
+either phase, does the justice register gain traction.
 
 Table 4
 *Register by year (counts, full core)*
@@ -315,7 +319,7 @@ Table 4
 | 2025 | 16 | 13 | 26 | 4 | 2 | 5 |
 | 2026 | 3 | 40 | 4 | 3 | 1 | 2 |
 
-Note: 2021 to 2023 are entirely the monitoring stream. 2024 mixes both streams (64 monitoring plus 24 backfill, 88 total). 2025 to 2026 are entirely the backfill stream. Read across the 2024 seam with caution (see "Temporal dynamics"). The within-stream monitoring series is 12 posts in 2021, 201 in 2022, 100 in 2023, and 64 in 2024.
+Note: 2021 to 2023 belong entirely to the earlier collection phase. 2024 mixes both phases (64 from the earlier phase plus 24 from the later phase, 88 in total). 2025 to 2026 belong entirely to the later phase. The 2024 seam should be read with caution (see "Temporal dynamics"). The earlier-phase series is 12 posts in 2021, 201 in 2022, 100 in 2023, and 64 in 2024.
 Source: Authors' calculation from the DigiKat corpus.
 
 Figure 4
@@ -353,17 +357,18 @@ Figure 5
 
 Source: Authors' calculation from the DigiKat corpus.
 
-### H1: inflation attention tracks real prices
+### Inflation attention and real prices
 
-To test H1 we correlate monthly inflation-attention, the share of corpus posts mentioning inflation, with the
-Croatian HICP annual rate of change (headline, food, energy), within the 2021 to 2024 monitoring stream. This
-stream provides 39 months with coverage: 37 consecutive months through January 2024, plus two thin months in
-June and July 2024 as the stream winds down, so the series is not fully contiguous. The batch-pooled series is
-reported for completeness only. Within the clean window, attention tracks inflation strongly (Table 6, Figure
-6): Pearson **r = 0.73** with headline HICP (nominal p < 0.001, see the inference cautions below), **0.72** with
-food, and **0.44** with energy (Spearman ρ comparable). The threshold form of H1 also holds descriptively. Mean
-attention is **0.49%** of posts in months with headline HICP below 4% (12 months) and **1.17%** at or above (27
-months), a 2.4-fold jump around the threshold of about 4% documented cross-nationally.
+To test the first hypothesis we correlate monthly inflation-attention, the share of corpus posts mentioning
+inflation, with the Croatian HICP annual rate of change (headline, food, energy), within the earlier 2021 to
+2024 collection phase. This phase provides 39 months with coverage: 37 consecutive months through January 2024,
+plus two thin months in June and July 2024 as the phase winds down, so the series is not fully contiguous. The
+combined series across both phases is reported for completeness only. Within the clean window, attention tracks
+inflation strongly (Table 6, Figure 6): Pearson r = 0.73 with headline HICP (nominal p < 0.001, see the
+inference cautions below), 0.72 with food, and 0.44 with energy (Spearman ρ comparable). The threshold form of
+the hypothesis also holds descriptively. Mean attention is 0.49% of posts in months with headline HICP below 4%
+(12 months) and 1.17% at or above (27 months), a 2.4-fold jump around the threshold of about 4% documented
+cross-nationally.
 
 Three cautions temper the inference. First, the HICP annual rate of change is a 12-month trailing construct, so
 consecutive monthly observations overlap by eleven months and are strongly autocorrelated. The attention series
@@ -378,19 +383,19 @@ described. Third, as noted under temporal dynamics, the January 2023 euro change
 price coverage, so part of the 2023 attention is plausibly changeover journalism rather than a response to the
 inflation rate as such.
 
-On this evidence **H1 is partially supported**. The attention-price coupling and the descriptive threshold
-pattern hold, and food inflation tracks attention as strongly as the headline, but **energy couples only
-weakly** (r = 0.44). Energy's large, partly negative swings in 2023 to 2024 loosen its link to attention, so
+On this evidence the hypothesis is partially supported. The attention-price coupling and the descriptive
+threshold pattern hold, and food inflation tracks attention as strongly as the headline, but energy couples
+only weakly (r = 0.44). Energy's large, partly negative swings in 2023 to 2024 loosen its link to attention, so
 the "food-and-energy" salience clause holds for food but not for energy here. This component reading is
 indirect: we correlate aggregate attention with each HICP component, which captures comovement rather than
 component-specific salience, so the weak energy result is suggestive rather than decisive. The coupling is not
 an artifact of the ragged window tail. Restricting to the contiguous 2021 to 2023 block gives r = 0.77 (n = 36),
-and dropping the thinnest tail month gives r = 0.72, while the batch-pooled series attenuates it (headline
-r = 0.63), consistent with the 2024 seam adding noise. The religion-linked core is too sparse for a monthly
-test, but its annual volume aligns with inflation, since both peak in 2022.
+and dropping the thinnest tail month gives r = 0.72, while the combined series across both phases attenuates it
+(headline r = 0.63), consistent with the 2024 seam adding noise. The religion-linked core is too sparse for a
+monthly test, but its annual volume aligns with inflation, since both peak in 2022.
 
 Table 6
-*Inflation-attention versus HICP (monthly, within the 2021–2024 stream, n = 39 months with coverage, not fully contiguous)*
+*Inflation-attention versus HICP (monthly, within the earlier 2021–2024 phase, n = 39 months with coverage, not fully contiguous)*
 
 | HICP component | Pearson r | Spearman ρ |
 |---|---:|---:|
@@ -398,15 +403,15 @@ Table 6
 | Food | 0.72 | 0.74 |
 | Energy | 0.44 | 0.43 |
 
-Source: Authors' calculation from the DigiKat corpus and Eurostat (`prc_hicp_manr`).
+Source: Authors' calculation from the DigiKat corpus and Eurostat.
 
 Figure 6
-*Inflation-attention versus HICP, 2021–2024 monitoring stream*
+*Inflation-attention versus HICP, earlier 2021–2024 collection phase*
 
 ![Figure 6](../output/figures/h1_attention_vs_hicp.png)
 
 Note: Bars show the share of corpus posts mentioning inflation (left axis). Lines show the Croatian HICP annual rate of change (right axis).
-Source: Authors' calculation from the DigiKat corpus and Eurostat (`prc_hicp_manr`).
+Source: Authors' calculation from the DigiKat corpus and Eurostat.
 
 ## DISCUSSION
 
@@ -434,7 +439,7 @@ Church-authored texts (see Limitations) are designed to separate them.
 
 Attention existed, but a prophetic voice did not fill it. The two results interlock. H1 indicates that media
 inflation-attention is real and price-coupled: attention rose with prices (see Results). Yet within that
-attention, once linkage is measured, the **religious** engagement is small and, where present, non-prophetic. The
+attention, once linkage is measured, the religious engagement is small and, where present, non-prophetic. The
 public conversation about inflation was there for a religious justice voice to enter, but little of one is
 visible in the measured discourse.
 
@@ -446,12 +451,12 @@ above, the Catholic subsample is too small and too aggregator-dominated to estab
 advance it only as a hypothesis. What both kinds of outlet share is the near-absence of the prophetic,
 structural voice.
 
-Mechanism and timing also matter here. Within the 2021 to 2024 stream, the pattern is consistent with an
+Mechanism and timing also matter here. Within the earlier 2021 to 2024 phase, the pattern is consistent with an
 agenda-setting reading: the religious linkage flares during the acute 2022 shock, largely institutional
 commentary, and recedes as prices stabilise, while church-fee coverage rises around euro adoption. On this
-within-stream evidence, the dynamic looks closer to **resonance** than to **setting** (H2, provisional). Religion
-enters inflation discourse reactively, as an affected party, rather than as an agenda-setter for economic
-justice.
+within-phase evidence, the dynamic looks closer to resonance than to setting, in line with the second
+hypothesis, though only provisionally. Religion enters inflation discourse reactively, as an affected party,
+rather than as an agenda-setter for economic justice.
 
 This finding matters across three fields. For sociology of religion, it qualifies accounts of the Croatian
 Church as a strong public actor: on the economy, at least, its digital-public presence is thin and
@@ -473,10 +478,10 @@ funerals and other rites of passage function as quasi-obligatory expenditures fo
 low-income households, a neglected component of cost-of-living measurement that the euro-changeover fee resets
 made briefly and unusually visible.
 
-To summarize the hypothesis scorecard, H1, attention-price coupling, is **partially supported**: the coupling
-holds, though energy couples only weakly. H2, resonance not setting, is **provisionally consistent**, pending
-a lead-lag test. P3, the prophetic-actor proposition, is **not visible in the digital-news measure**, since the
-actor-level claim is not testable here. P4, episodic over thematic, is **supported**, in part by construction
+To summarize the hypothesis scorecard, H1, attention-price coupling, is partially supported: the coupling
+holds, though energy couples only weakly. H2, resonance not setting, is provisionally consistent, pending
+a lead-lag test. P3, the prophetic-actor proposition, is not visible in the digital-news measure, since the
+actor-level claim is not testable here. P4, episodic over thematic, is supported, in part by construction
 (see Appendix C).
 
 ## METHODOLOGICAL CONTRIBUTION: CO-OCCURRENCE IS NOT ENGAGEMENT
@@ -490,13 +495,14 @@ reusable template for any "religion and X" (or "A and B") corpus study.
 
 ## LIMITATIONS
 
-Several limitations qualify these findings. The corpus mixes two collection streams with very different
-confirmation rates at their 2024 overlap (0.86 versus 0.21), so we read temporal trends **within** stream and do
-not claim a decline across the 2024 seam. A stream-conditioned re-coding is the single highest-value robustness
-check. Inter-annotator agreement is high (0.97), but this is inter-model reliability, not a human gold
+Several limitations qualify these findings. The corpus was assembled in two collection phases that confirm
+genuine linkage at very different rates where they overlap in 2024, so we read temporal trends within a single
+phase and do not claim a decline across the 2024 seam. A re-coding that conditions on collection phase is the
+single highest-value robustness check. Inter-annotator agreement is high (0.97), but this is inter-model
+reliability, not a human gold
 standard, and a human double-coding of a slice of at least 100 posts, including the foreign/domestic boundary
 that defines the 520, is required before final publication, along with resolution of 12 "disputed" register
-cases. As defined, **Church-as-institution** also mixes the institution as an affected party with clergy as
+cases. As defined, Church-as-institution also mixes the institution as an affected party with clergy as
 commentators, that is, speaking subjects, so the "economic-object" macro-register (≈72%) overstates the object
 reading to an unknown degree and should be read as an upper bound. The human coding round will split this
 register into affected-party versus commentator, and the macro-register figure will be recomputed on that
@@ -507,9 +513,9 @@ Register was the lowest-agreement axis, and the 37% versus 34% ordering is withi
 the ≈72% macro-register, while 3% justice is a strict floor, at most 8% broadly construed. The proximity
 filter's misses may also be register-non-random, since long-form thematic argument is likelier to exceed a
 ±220-character window, so filter design as well as strict coding may depress the justice floor, and a planned
-window-sensitivity check addresses this. H1 is also tested only at the level of corpus-wide
-inflation-attention. A monthly HICP overlay on the religion-linked core specifically is too sparse to test, and
-the H2 lead-lag test against public search interest is future work.
+window-sensitivity check addresses this. The attention-price test is also conducted only at the level of
+corpus-wide inflation-attention. A monthly HICP overlay on the religion-linked core specifically is too sparse
+to test, and the lead-lag test of resonance against public search interest is future work.
 
 Because the corpus is religion-filtered, we cannot yet say whether structural framing is rarer in religious
 than in secular inflation coverage, and a benchmark on non-religious inflation posts is needed before any claim
@@ -530,11 +536,11 @@ human validation securing the ground beneath them.
 
 ## DATA AND CODE AVAILABILITY
 
-Tracked aggregates, coded outputs, tables and figures are in the study `output/` directory
-(`analysis_core_coded.csv`, the `tables/` folder, `hicp_hr.csv`). The underlying master corpus contains scraped
-post text and is not redistributable. Analyses are reproducible from the numbered pipeline scripts (Appendix A)
-given access to the master. The measured-core file carries URLs and text excerpts and is held internally
-pending a statistical-disclosure review.
+The aggregate outputs behind every table and figure, together with the coded data and the HICP price series,
+are available on request. The underlying corpus contains scraped post text and is not redistributable, so the
+analysis is reproducible from the aggregate data and the analysis scripts rather than from the raw corpus. The
+measured-core file carries URLs and text excerpts and is held internally pending a statistical-disclosure
+review.
 
 ## ETHICS AND DISCLOSURE
 
@@ -566,23 +572,26 @@ open-science (FAIR) principles apply.
 - Wlezien, C., & Soroka, S. (2024). Media and the public's attention. *American Political Science Review, 118*(3), 1563–1569.
 - Yin, R. K. (2018). *Case Study Research and Applications: Design and Methods* (6th ed.). Sage.
 
-*Some literature entries remain to be verified against Hrčak / CrossRef before submission. See `LITERATURE.md`.*
-**Data source:** Croatian HICP annual rate of change (Eurostat `prc_hicp_manr`, all-items/food/energy, monthly), retrieved 2026-07-01 (`output/hicp_hr.csv`).
+Some literature entries remain to be verified against Hrčak and CrossRef before submission. The price data are
+the Croatian HICP annual rate of change (all items, food, and energy, monthly) from Eurostat, retrieved on 1
+July 2026.
 
 ## APPENDIX A. REPRODUCIBILITY
 
-Pipeline: `10_rerun_fixed.R` (tagging + linkage + fixes) → `13_make_coding_pool.R` (1,450-candidate pool +
-annotation batches) → the `code-candidate-pool` workflow (3 annotators × 20 batches, majority) →
-`14_finalize_coded.R` (measured core) → `15_paper_analysis.R` (register/outlet/sentiment tables + figures) →
-`16_review_response.R` (stream conditioning, hkm.hr decomposition, latent-justice bound) → `17_h1_hicp.R`
-(H1 test). Run against the master (R path in `CLAUDE.local.md`). Coded data: `output/analysis_core_coded.{rds,csv}`.
+The analysis proceeds in five stages. We first tag inflation mentions and identify candidate religion-inflation
+links in the corpus. We then assemble the 1,450-candidate pool and prepare it for coding. Three annotators code
+the pool independently and their labels are combined by majority. From the coded pool we derive the measured
+core, and from the core we compute the register, outlet, and sentiment tables and figures, the collection-phase
+robustness checks, and the attention-price test against HICP. The analysis scripts and the coded data underlying
+every table and figure are available on request. The underlying corpus of scraped post text is not
+redistributable.
 
 ## APPENDIX B. CODING PROTOCOL AND VALIDATION
 
-Four axes (see Data and Methods). In held-out validation (n = 80), inter-annotator agreement was 0.975 for
-inflation, 0.967 for linkage, 0.992 for foreign/domestic, and 0.46 for register. Classifier held-out precision
-for domestic linkage was about 0.38 to 0.46, with a recall of about 0.89. Full-pool coding confirmed that 45% of
-candidates were genuinely linked. Full log: `VALIDATION.md`, `REVIEW_RESPONSE.md`.
+The four coding axes are described in the Data and Methods section. In held-out validation (n = 80),
+inter-annotator agreement was 0.975 for inflation, 0.967 for linkage, 0.992 for foreign versus domestic, and
+0.46 for register. The proximity filter's held-out precision for domestic linkage was about 0.38 to 0.46, with
+a recall of about 0.89. Full-pool coding confirmed that 45% of candidates were genuinely linked.
 
 ## APPENDIX C. HYPOTHESIS SCORECARD
 
@@ -591,10 +600,10 @@ Table C1
 
 | # | Statement | Test | Verdict |
 |---|---|---|---|
-| H1 | Attention rises with HICP, jumps above about 4%, food and energy at least as salient as headline | Correlation + threshold contrast (Results) | **Partially supported** (r about 0.73, attention 0.49% to 1.17% across the threshold, food about equal to headline, but energy only weakly coupled at r = 0.44) |
-| H2 | Religious coverage resonates rather than leads | Temporal pattern (Results, Discussion) | **Provisionally consistent**, with a lead-lag test still pending |
-| P3 | If prophetic actor, justice register non-trivial and rises with hardship | Pattern-matching (Results) | **Not visible in the digital-news measure** (3% under strict coding, at most 8% broadly, with no rise over time), since the actor-level claim is not testable in a news corpus |
-| P4 | Framing episodic, not thematic | Register distribution (Results) | **Supported** (episodic registers ≫ thematic justice), though partly by construction: justice is definitionally the thematic register |
+| H1 | Attention rises with HICP, jumps above about 4%, food and energy at least as salient as headline | Correlation + threshold contrast (Results) | Partially supported (r about 0.73, attention 0.49% to 1.17% across the threshold, food about equal to headline, but energy only weakly coupled at r = 0.44) |
+| H2 | Religious coverage resonates rather than leads | Temporal pattern (Results, Discussion) | Provisionally consistent, with a lead-lag test still pending |
+| P3 | If prophetic actor, justice register non-trivial and rises with hardship | Pattern-matching (Results) | Not visible in the digital-news measure (3% under strict coding, at most 8% broadly, with no rise over time), since the actor-level claim is not testable in a news corpus |
+| P4 | Framing episodic, not thematic | Register distribution (Results) | Supported (episodic registers ≫ thematic justice), though partly by construction: justice is definitionally the thematic register |
 
 Source: Authors' compilation.
 
